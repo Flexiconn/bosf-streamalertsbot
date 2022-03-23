@@ -1,0 +1,27 @@
+{
+  "name": "bosf-alerts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flexiconn/bosf-streamalertsbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Flexiconn/bosf-streamalertsbot/issues"
+  },
+  "homepage": "https://github.com/Flexiconn/bosf-streamalertsbot#readme",
+  "dependencies": {
+    "@twurple/api": "^5.0.18",
+    "@twurple/eventsub": "^5.0.18",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "twitch": "^4.6.7",
+    "twitch-webhooks": "^4.6.7"
+  }
+}
