@@ -19,9 +19,12 @@
   "dependencies": {
     "@twurple/api": "^5.0.18",
     "@twurple/eventsub": "^5.0.18",
+    "axios": "^0.26.1",
     "discord.js": "^13.6.0",
     "dotenv": "^16.0.0",
+    "simple-helix-api": "^2.1.4",
     "twitch": "^4.6.7",
+    "twitch-helix": "^1.0.7",
     "twitch-webhooks": "^4.6.7"
   }
 }
