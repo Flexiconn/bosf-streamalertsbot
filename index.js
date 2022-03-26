@@ -45,9 +45,7 @@ function CheckStreamers() {
 							streamer.live = true;
 						}
 					})
-					if(live == false){
-						streamer.live = false;
-					}
+					streamer.live = false;
 				})
 			})
 	}, Interval * 1000);
