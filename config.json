@@ -1,8 +1,8 @@
 {
-	"DiscordToken": "OTU2Mjc2MzM0MjYxMzM4MTYy.Yjt3vA.vZHhlh8CzSPyIQd4YpiW7wrfqAo",
-	"Interval": 6,
-	"TwitchClientId": "xcopvtuxrf5vwadoaruseha2mjf7n4",
-	"TwitchClientSecret": "9mlal91z14xuqpfas8nngvoiuyeqjn",
-	"DiscordChannel": "956280063073083462",
-	"TaggedRole": "everyone"
+	"DiscordToken": "",
+	"Interval": 60,
+	"TwitchClientId": "",
+	"TwitchClientSecret": "",
+	"DiscordChannel": "{insert channel id}",
+	"TaggedRole": "{insert role name}"
 }
