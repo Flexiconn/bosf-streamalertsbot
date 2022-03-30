@@ -5,7 +5,7 @@ const axios = require('axios')
 // Create a new client instance
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
-var streamers = [{streamer: "riotgames", live: false},{streamer: "esl_csgo", live: false},{streamer: "ocority", live: true},{streamer: "evo_monkey_x", live: false},{streamer: "bosf_esports", live: false},{streamer: "realmwizard", live: false},{streamer: "scrake_killer", live: false} ];
+var streamers = [{streamer: "ocority", live: false},{streamer: "evo_monkey_x", live: false},{streamer: "bosf_esports", live: false},{streamer: "realmwizard", live: false},{streamer: "scrake_killer", live: false} ];
 var url ="";
 
 function Embed(obj,pfp) {
@@ -42,10 +42,9 @@ function CheckStreamers() {
 									client.channels.cache.get(DiscordChannel).send({ content: "Hey, @"+ TaggedRole + " " + twitchData.user_name + ", is live! https://twitch.tv/"+ twitchData.user_login,embeds: [Embed(twitchData, response.data.data[0].profile_image_url)] })
 								});
 							}
-							streamer.live = true;
 						}
 					})
-					streamer.live = false;
+					streamer.live = live;
 				})
 			})
 	}, Interval * 1000);
